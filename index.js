@@ -29,8 +29,11 @@ async function getGHUser(userName){
 	const myRes = await fetch(url)
 	const userData = await myRes.json()
 
-	console.log('userData')
-	console.log(userData)
+	//3.return 
+	return userData;
 }
 
-getGHUser('imagineLife')
+getGHUser('imagineLife').then(res => {
+	console.log('res')
+	console.log(res)
+})
