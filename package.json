@@ -1,0 +1,23 @@
+{
+  "name": "async",
+  "version": "1.0.0",
+  "description": "async JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagineLife/async.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/imagineLife/async/issues"
+  },
+  "homepage": "https://github.com/imagineLife/async#readme",
+  "dependencies": {
+    "node-fetch": "^2.3.0"
+  }
+}
