@@ -20,10 +20,14 @@ async function getGHUser(userName){
 		throw Error(resBody.message)
 	}
 
-	
+
 }
 
 getGHUser('imagineLifeasdf').then(res => {
-	console.log('res')
-	console.log(res)
-})
+		console.log('res')
+		console.log(res)
+	
+	//3. Add catch AFTER .then
+	}).catch(err => {
+		console.log(`getUser Error: ${err}`);
+	})
